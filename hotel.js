@@ -11,7 +11,6 @@ class Hotel {
     this.#maxFloor = maxFloor;
     this.#minFloor = minFloor;
     this.rooms = rooms;
-
     }
     printAdv(){
         return 'welcome to our hotel ' ;
@@ -22,7 +21,6 @@ class Hotel {
         if(this.rooms.isBooked ==true)
         return this.rooms;    }
 }
-
 
 
 class Room{
@@ -85,5 +83,3 @@ const room4 = new RoomView(1, 4, 10,true,true,2);
 const room5 = new RoomView(2, 5, 35,true,false,1);
 
 const hotel1 = new Hotel('jenin', 5, 2,0,[room1,room2,room3,room4,room5]);
-
-
