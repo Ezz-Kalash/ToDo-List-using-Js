@@ -1,4 +1,3 @@
-
 class Hotel {  
     Address;
     NumberOfRooms;
